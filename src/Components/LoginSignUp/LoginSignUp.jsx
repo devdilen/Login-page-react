@@ -30,7 +30,7 @@ export const LoginSignUp = () => {
           <>
             <Col xs={12} sm={12} md={8} lg={8} className='input'>
               <img src={key_icon} alt="" />
-              <input
+              <input 
                 type="text"
                 placeholder='OTP'
               />
@@ -77,7 +77,7 @@ export const LoginSignUp = () => {
          </div> )}
 
          {isLoginFormVisible && (  <Col xs={12} sm={12} md={8} lg={8}>
-            <div> <p className='privacy'> By clicking on Login, I accept the <span className='terms'><a href="https://www.freeprivacypolicy.com/live/152edcce-c955-47c9-9495-862eb9b929a0"><strong>Terms & Conditions</strong></a></span> & <span className='terms'><a href="https://www.freeprivacypolicy.com/live/9adddeb7-3f49-45b4-93eb-7949c6bb8b87"><strong>Privacy Policy</strong></a></span></p></div>
+            <div> <p className='privacy'> By clicking on Login, I accept the <span className='terms'><a href="https://www.freeprivacypolicy.com/live/152edcce-c955-47c9-9495-862eb9b929a0"><strong >Terms & Conditions</strong></a></span> & <span className='terms' ><a href="https://www.freeprivacypolicy.com/live/9adddeb7-3f49-45b4-93eb-7949c6bb8b87"><strong>Privacy Policy</strong></a></span></p></div>
               </Col>
            )}
 
